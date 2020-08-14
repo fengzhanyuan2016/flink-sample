@@ -6,6 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.youfan</groupId>
     <artifactId>analyze</artifactId>
+    <version>1.0</version>
     <build>
         <plugins>
             <plugin>
@@ -33,6 +34,35 @@
             <version>1.11.1</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10.6</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>2.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-server</artifactId>
+            <version>2.2.5</version>
+        </dependency>
+
+
+
+
+
     </dependencies>
 
 
